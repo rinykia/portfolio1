@@ -33,15 +33,18 @@
     font-family: 'Roboto', sans-serif;
 	text-align: center;
 	line-height: 25px;
+
 	}
 .main{
 	width: 999px;
-	background-image: url(pict.jpg);
+	background-image: url(pict.png);
+	background-repeat: no-repeat;
+	
 	height: 600px;
 	margin-left: 38px;
  	margin-right: auto;
  	color:white;
- 	font-size: 40px;
+ 	font-size: 30px;
  	padding: 20px;
  	font-family: 'Roboto', sans-serif;
 }

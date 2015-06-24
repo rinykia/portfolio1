@@ -19,10 +19,29 @@
 	background: black;
 	margin-top: 150px;
 	width: 1035px;
-height: 100%;
-	
-	
+	height: 100%;
     
+}
+#color1 {
+	background-image:linear-gradient(#660000, #663333, #666633, #669933, #66CC33, #66FF33);
+}
+
+#color2{
+	
+    background-image:linear-gradient(#660066, #663366, #666666, #669966, #66CC66, #66FF66);
+}
+#color3 {
+	
+    background-image:linear-gradient(#660099, #663399, #666699, #669999, #66CC99, #66FF99);
+}
+
+#color4{
+	
+    background-image:linear-gradient(#6600CC, #6633CC, #6666CC, #6699CC, #66CCCC, #66FFCC);
+}
+#color5{
+	
+    background-image:linear-gradient(#6600FF, #6633FF, #6666FF, #6699FF, #66CCFF, #66FFFF);
 }
 .column{
 	height:25px;
@@ -34,4 +53,6 @@ height: 100%;
     font-family: 'Roboto', sans-serif;
 	text-align: center;
 	line-height: 25px;
+
 	}
+
