@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :comments
+
+  resources :posts do
+    resources :comments
+  end
+
   root 'pages#welcome'
   get '/pages' => 'pages#welcome'
     # The priority is based upon order of creation: first created -> highest priority.
