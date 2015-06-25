@@ -55,4 +55,59 @@
 	line-height: 25px;
 
 	}
+/* post and coments */
+.post{
+	margin-left: 35px;
+	height: 600px;
+	width: 1000px;
+}
+li{
+	list-style-type: none;
 
+}
+.redact{
+	display: inline-block;
+
+}
+.bodyp{
+	margin-left: -30px;
+	color: #FFEBCD;
+	font-size: 15px;
+	padding-top: 20px;
+}
+.titlep{
+	padding-top: 30px;
+	color:  #FFF5EE;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: -30px;
+
+}
+/*welcome	*/
+
+.main{
+	width: 999px;
+	background-image: url(http://4.bp.blogspot.com/-_OW82d8aFlg/UYcklpXAS7I/AAAAAAAAE10/gKOKY490AD4/s1600/lavanda+002.jpg);
+	/*background-image:linear-gradient(#6600CC, #6633CC, #6666CC, #6699CC, #66CCCC, #66FFCC);*/
+	background-repeat: no-repeat;
+	
+	height: 600px;
+	margin-left: 38px;
+ 	margin-right: auto;
+ 	color:white;
+ 	font-size: 30px;
+ 	padding: 20px;
+ 	font-family: 'Roboto', sans-serif;
+}
+a{
+	color: white;
+}
+.icon{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+}
+.footer{
+	margin-left: 940px;/* изменить когда поставить иконки */
+	margin-top: 100px;
+}
