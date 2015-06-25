@@ -1,31 +1,3 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-/*welcome	*/
-
-.main{
-	width: 999px;
-	background-image: url(http://4.bp.blogspot.com/-_OW82d8aFlg/UYcklpXAS7I/AAAAAAAAE10/gKOKY490AD4/s1600/lavanda+002.jpg);
-	/*background-image:linear-gradient(#6600CC, #6633CC, #6666CC, #6699CC, #66CCCC, #66FFCC);*/
-	background-repeat: no-repeat;
-	
-	height: 600px;
-	margin-left: 38px;
- 	margin-right: auto;
- 	color:white;
- 	font-size: 30px;
- 	padding: 20px;
- 	font-family: 'Roboto', sans-serif;
-}
-a{
-	color: white;
-}
-.icon{
-	display: inline-block;
-	list-style-type: none;
-	color: white;
-}
-.footer{
-	margin-left: 940px;/* изменить когда поставить иконки */
-	margin-top: 100px;
-}
