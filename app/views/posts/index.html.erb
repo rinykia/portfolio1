@@ -1,4 +1,5 @@
 <div class="post">
+	<div class="img">
 <p id="notice"><%= notice %></p>
 
 
@@ -14,11 +15,13 @@
         <li class="redact"><%= link_to 'Show', post %></li>
         <li class="redact"><%= link_to 'Edit', edit_post_path(post) %></li>
         <li class="redact"><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></li>
+        <div class="border"></div>
       </ul>
     <% end %>
-  
+
 
 <br>
 
 <%= link_to 'New Post', new_post_path %>
+	</div>
 </div>

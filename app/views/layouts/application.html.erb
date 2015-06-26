@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="header">
-	<ul>
+	<ul class="menu">
 		<li class="column" id="color1"><%= link_to "Welcome", '/pages' %></li>
 		<li class="column" id="color2"><%= link_to "Portfolio", '#' %></li>
 		<li class="column" id="color3"><%= link_to "About", '/about' %></li>
@@ -22,9 +22,9 @@
 <%= yield %>
 <div class="footer">
 	<ul>
-		<li class="icon">g+</li>
-		<li class="icon">fb</li>
-		<li class="icon">in</li>
+		<a href="#"><li  class="icon icon1"></li></a>
+		<a href="#"><li  class="icon icon2"></li></a>
+		<a href="#"><li  class="icon icon3"></li></a>
 	</ul>
 </div>
 </body>
