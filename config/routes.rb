@@ -3,12 +3,13 @@ Rails.application.routes.draw do
   get '/pages' => 'pages#welcome'
   get '/contacts' => 'contacts#contact'
   get '/about' => 'about#about'
-  
+
   #resources :comments
 
   resources :posts do
     resources :comments
   end
+  
 
 
     # The priority is based upon order of creation: first created -> highest priority.

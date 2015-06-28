@@ -1,19 +1,20 @@
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.img{
+	background-image: url(plg.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	height: 654px;
+}
 .post{
-	margin-left: 10px;
-	margin-top:10px;
-	height: 600px;
 	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+
 	
 
-}
-.img{
-	background-image: url(pystuna.jpg);
-	height: 600px;
-	width: 1000px;
-	margin-left: -10px;
 }
 li{
 	list-style-type: none;
@@ -21,7 +22,7 @@ li{
 .redact{
 	display: inline-block;
 	margin-right:10px;
-	margin-top: 20px;
+	margin-top: 15px;
 	font-size: 10px;
 }
 
@@ -32,9 +33,9 @@ margin-left:-40px;
 	
 }
 .titlep{
-	padding-top: 20px;
+	padding-top: 15px;
 	color:  black;
-	font-size: 20px;
+	font-size: 17px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	margin-left: -30px;
 
@@ -43,10 +44,17 @@ margin-left:-40px;
 .bodyp{
 	margin-left: -30px;
 	color: black;
-	font-size: 15px;
+	font-size: 14px;
 	padding-top: 10px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 
 	
 }
 
+/* show post */
+.showpost{
+	margin-left: 50px;
+}
+.commentform{
+	margin-left: -40px;
+}

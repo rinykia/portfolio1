@@ -1,27 +1,21 @@
+    <div class="img">
 <div class="post">
-	<div class="img">
+
 <p id="notice"><%= notice %></p>
-
-
-
-
-   
-
-  
+ 
     <% @posts.each do |post| %>
       <ul>
         <li class="titlep"><%= post.title %></li>
-        <li class="bodyp"><%= post.body %></li>
+        <li class="bodyp"><%= truncate(strip_tags(post.body), length: 130) %></li>
         <li class="redact"><%= link_to 'Show', post %></li>
         <li class="redact"><%= link_to 'Edit', edit_post_path(post) %></li>
         <li class="redact"><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></li>
         <div class="border"></div>
       </ul>
     <% end %>
-
-
 <br>
-
 <%= link_to 'New Post', new_post_path %>
-	</div>
+	<%= paginate @posts %>
+    </div>
+
 </div>

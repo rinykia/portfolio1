@@ -1,4 +1,4 @@
-<div class="post">
+<div class="showpost">
 <p id="notice"><%= notice %></p>
 <div class="border">
 <p>
@@ -11,7 +11,8 @@
   <%= @post.body %>
 </p>
 </div>
-<h2>Comments</h2>
+<div class="commentform">
+<h4>Comments</h4>
 <div id="comments">
 	<%= render :partial => @post.comments.reverse %>
 </div>
@@ -25,4 +26,6 @@
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
+</div>
+
 </div>
