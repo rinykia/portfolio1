@@ -1,15 +1,19 @@
-<div class="showpost">
+<div class="img">
+<div class="show">
+<div class="post">
 <p id="notice"><%= notice %></p>
 <div class="border">
-<p>
-  <strong>Title:</strong>
+<ul>
+<li class="titlep">
+ 
   <%= @post.title %>
-</p>
+</li>
 
-<p>
-  <strong>Body:</strong>
+<li class="bodyp">
+  
   <%= @post.body %>
-</p>
+</li>
+</ul>
 </div>
 <div class="commentform">
 <h4>Comments</h4>
@@ -24,8 +28,9 @@
 	<p><%= f.submit "Add Comment" %></p>
 <% end %>
 
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
+<div class="redact"><%= link_to 'Edit', edit_post_path(@post) %> |
+	<%= link_to 'Back', posts_path %></div>
 </div>
-
+</div>
+</div>
 </div>
