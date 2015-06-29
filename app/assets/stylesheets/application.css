@@ -26,8 +26,8 @@
 }
 .header{
 	width: 523px;
-	margin-left: auto;
- 	margin-right: auto;
+	margin-left: 35%;
+ 	
 }
 .menu > .column > a{
 
@@ -71,20 +71,18 @@
 	line-height: 25px;
 }
 
-.footer{
-	display: inline-block;
-	margin-left: 817px;/* изменить когда поставить иконки */
-	margin-top: 100px;
-}
- /* contact */
- .contact {
- 	
-	height: 600px;
-	width: 1000px;
-	color: black;
-	display: inline-block;
- }
+
+ 
  /*footer */
+ .footer{
+	width: 170px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 45%;
+
+
+		/* изменить когда поставить иконки */
+}
  .icon{
 	display: inline-block;
 	list-style-type: none;
@@ -134,4 +132,22 @@
  	font-size: 30px;
  	padding: 20px;
  	font-family: 'Roboto', sans-serif;
+ 	height: 550px;
+ 	line-height: 550px;
 }
+/* contact */
+ .contact {
+ 	height: 700px;
+	color: black;
+	background-image: url(123.jpg);
+	background-size: cover;
+ }
+ .contacttext{
+ 	width: 300px;
+	margin-left: 40%;			
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color:black;
+	padding-top: 150px;
+ }
