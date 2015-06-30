@@ -11,10 +11,19 @@
 .post{
 	width:600px;
 	margin-left: 35%;
-	
 
-	
+}
+ul > .titlep > a {
 
+	color: #000000;
+}
+ul > .bodyp > a{
+	color: #000000;
+}
+li > a:hover {
+  text-decoration: none;
+  color:black;
+  background: none;
 }
 li{
 	list-style-type: none;
@@ -29,14 +38,14 @@ li{
 .border{
 border-bottom: solid #E6E6FA 1px;
 margin-left:-40px;
-margin-right: 20px;
+margin-right: 10px;
 
 	
 }
 .titlep{
 	padding-top: 15px;
-	color:  black;
-	font-size: 17px;
+	
+	font-size: 20px;
 	font-family:Verdana,Arial,sans-serif;
 	font-weight: 500;
 	margin-left: -30px;

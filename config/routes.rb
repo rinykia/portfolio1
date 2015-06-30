@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get '/pages' => 'pages#welcome'
   get '/contacts' => 'contacts#contact'
   get '/about' => 'about#about'
+  get '/portfolio' => 'portfolio#portfolio'
 
   #resources :comments
 
