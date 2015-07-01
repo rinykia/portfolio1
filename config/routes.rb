@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   root 'pages#welcome'
   get '/pages' => 'pages#welcome'
   get '/contacts' => 'contacts#contact'
+  get '/contacts/new' => 'contacts#new'
+  post 'contacts' => 'contacts#create'
   get '/about' => 'about#about'
   get '/portfolio' => 'portfolio#portfolio'
 

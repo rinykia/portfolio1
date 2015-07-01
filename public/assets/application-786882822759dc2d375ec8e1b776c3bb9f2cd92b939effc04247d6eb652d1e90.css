@@ -1,0 +1,468 @@
+/* line 4, D:/w/porfolio1/app/assets/stylesheets/about.scss */
+.about {
+  height: 700px;
+  background-image: url(Amazonka.jpg);
+  background-size: cover;
+}
+/* line 12, D:/w/porfolio1/app/assets/stylesheets/about.scss */
+.about p {
+  width: 800px;
+  margin-left: 35%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+/* line 24, D:/w/porfolio1/app/assets/stylesheets/about.scss */
+.textabout {
+  padding-top: 150px;
+}
+/* contact */
+/* line 6, D:/w/porfolio1/app/assets/stylesheets/contacts.scss */
+.contact {
+  height: 700px;
+  color: black;
+  background-image: url(123.jpg);
+  background-size: cover;
+}
+
+/* line 13, D:/w/porfolio1/app/assets/stylesheets/contacts.scss */
+.contacttext {
+  width: 300px;
+  margin-left: 40%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  color: black;
+  padding-top: 15px;
+}
+
+/* line 25, D:/w/porfolio1/app/assets/stylesheets/contacts.scss */
+.time {
+  font-size: 10px;
+}
+
+/* line 30, D:/w/porfolio1/app/assets/stylesheets/contacts.scss */
+.content {
+  width: 300px;
+  background: white;
+  font-size: 12px;
+  height: 80px;
+  line-height: 40px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+/* line 40, D:/w/porfolio1/app/assets/stylesheets/contacts.scss */
+.partial1 {
+  margin-top: -30px;
+}
+
+ /*
+
+.contacts a,
+.create .actions input {
+  background-color: #f2580b;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 12px 24px;
+  transition: background-color 0.5s;
+  text-decoration: none;
+  display: inline-block;
+}
+.c {
+  background-color: #fff;
+  font-weight: 300;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+p.time {
+  color: #0084d7;
+  font-size: 12px;
+  margin-top: 12px;
+}
+button {
+  background-color: #f2580b;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 12px 24px;
+  transition: background-color 0.5s;
+}
+
+button:hover {
+  background-color: #c24609;
+  transition: background-color 0.5s;
+}
+
+form label {
+  display: block;
+  width: 100%;
+}
+
+form textarea {
+  border: 1px solid transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 20px 0 10px;
+  min-height: 100px;
+  padding: 16px;
+  transition: border 0.5s;
+  width: calc(100% - 32px);
+}
+
+form textarea:focus {
+  border: 1px solid #0084d7;
+  box-shadow: 0;
+  outline: 0;
+  transition: border 0.5s;
+}
+@media screen and (max-width: 480px) {
+    .container {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .contacts, .create {
+      padding: 0 20px;
+    }*/
+/*welcome	*/
+/* line 7, D:/w/porfolio1/app/assets/stylesheets/pages.scss */
+.main {
+  background-image: url(pict.jpg);
+  /*background-image:linear-gradient(#6600CC, #6633CC, #6666CC, #6699CC, #66CCCC, #66FFCC);*/
+  background-size: cover;
+  height: 700px;
+}
+
+/* line 15, D:/w/porfolio1/app/assets/stylesheets/pages.scss */
+.text {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  height: 550px;
+  line-height: 550px;
+}
+/* line 4, D:/w/porfolio1/app/assets/stylesheets/portfolio.scss */
+.portfolio {
+  height: 700px;
+  width: 300px;
+  margin-left: 40%;
+}
+/*index.html.erb*/
+/* line 6, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.img {
+  background-image: url(ocean.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+/* line 12, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.post {
+  width: 600px;
+  margin-left: 35%;
+}
+
+/* line 17, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+ul > .titlep > a {
+  color: #000000;
+}
+
+/* line 21, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+ul > .bodyp > a {
+  color: #000000;
+}
+
+/* line 24, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+li > a:hover {
+  text-decoration: none;
+  color: black;
+  background: none;
+}
+
+/* line 29, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+li {
+  list-style-type: none;
+}
+
+/* line 32, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.redact {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 15px;
+  font-size: 10px;
+}
+
+/* line 39, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.border {
+  border-bottom: solid #E6E6FA 1px;
+  margin-left: -40px;
+  margin-right: 10px;
+}
+
+/* line 46, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.titlep {
+  padding-top: 15px;
+  font-size: 20px;
+  font-family: Verdana,Arial,sans-serif;
+  font-weight: 500;
+  margin-left: -30px;
+}
+
+/* line 57, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.bodyp {
+  margin-left: -30px;
+  color: black;
+  font-size: 14px;
+  padding-top: 10px;
+  font-family: Verdana,Arial,sans-serif;
+  font-weight: 500;
+}
+
+/* show post */
+/* line 69, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.show {
+  padding-left: 62px;
+}
+
+/* line 73, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.commentform {
+  margin-left: -30px;
+}
+
+/* new post */
+/* line 77, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.postnew {
+  width: 700px;
+  margin-left: 35%;
+}
+
+/*form */
+/* line 82, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+INPUT[type="text"] {
+  width: 600px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+/* line 87, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+textarea {
+  max-width: 600px;
+  min-width: 300px;
+  max-height: 460px;
+  min-height: 100px;
+  border-radius: 5px;
+}
+/* line 1, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 23, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 26, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 33, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 38, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 42, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 48, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 55, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 65, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+ body {
+ 	margin-left: auto;
+ 	margin-right: auto;
+	background:white;
+	margin-top: 50px;
+	/*width: 1002px;
+	height: 100%;
+	border: solid #808080 1px; */
+	 height: 100%;
+	 width: 100%;
+}
+.header{
+	width: 523px;
+	margin-left: 35%;
+ 	
+}
+.menu > .column > a{
+
+	font-family: monospace;
+	font-size: 15px;
+	color: black;
+	
+
+}
+
+/*#color1 {
+	margin-left: -40px;
+
+	background-image:linear-gradient(#660000, #663333, #666633, #669933, #66CC33, #66FF33);
+}
+
+#color2{
+	margin-left: -5px;
+    background-image:linear-gradient(#660066, #663366, #666666, #669966, #66CC66, #66FF66);
+}
+#color3 {
+	margin-left: -5px;
+    background-image:linear-gradient(#660099, #663399, #666699, #669999, #66CC99, #66FF99);
+}
+
+#color4{
+	margin-left: -5px;
+    background-image:linear-gradient(#6600CC, #6633CC, #6666CC, #6699CC, #66CCCC, #66FFCC);
+}
+#color5{
+	margin-left: -5px;
+    background-image:linear-gradient(#6600FF, #6633FF, #6666FF, #6699FF, #66CCFF, #66FFFF);
+}
+*/
+.column{
+	height:25px;
+    display: inline-block;
+    margin-left: 35px;
+    font-family: 'Roboto', sans-serif;
+	text-align: center;
+	line-height: 25px;
+}
+
+
+ 
+ /*footer */
+.footer > .ikonki > a:hover {
+ 	text-decoration: none;
+ 	background: white;
+ }
+ .footer{
+	width: 170px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 45%;
+
+
+		/* изменить когда поставить иконки */
+}
+ .icon{
+	display: inline-block;
+	list-style-type: none;
+	width: 40px;
+	height: 40px;
+	
+    
+}
+.icon1{
+	background-image: url(icon2.jpg);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	
+	
+}
+.icon2{
+	background-image: url(icon1.jpg);
+	background-repeat: no-repeat;
+	background-size: 40px;
+
+	
+}
+.icon3{
+	background-image: url(icon3.jpg);
+	background-repeat: no-repeat;
+	background-size: 40px;
+
+	
+}
+/* post and coments */
+
+

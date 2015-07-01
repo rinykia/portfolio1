@@ -1,9 +1,24 @@
 <div class="contact">
-	<div class="contacttext">Contact me:
-	<ul>
-		<li>email: rinykia@gmail.com</li>
-		<li>skype: rinykia</li>
-		<li><a class="icon2" href="https://www.facebook.com/rinykia"></a></li>
-	</ul>
-	</div>
-</div>	
+
+  <div class="contacttext">
+    <p>Contact me:</p>
+    <p>email: rinykia@gmail.com</p>
+    <p>skype: rinykia</p>
+    <p>or leave me message:</p>
+  
+      <div class="partial1"><%= render 'new' %></div>
+        <% @contacts.each do |c| %>
+        
+          
+              
+              <div class="content"><%= c.content %></div>
+                <div class="time"><%= c.created_at %></div>
+  
+        <% end %>
+                    
+          <div class="paginate"><%= paginate @contacts %></div>
+          
+            
+          
+   </div>
+</div>
