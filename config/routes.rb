@@ -4,6 +4,11 @@ Rails.application.routes.draw do
   get '/contacts' => 'contacts#contact'
   get '/contacts/new' => 'contacts#new'
   post 'contacts' => 'contacts#create'
+  get '/tags' => 'tags#index'
+  get '/tags/:id' => 'tags#show', as: :tag
+  get '/destinations/:id' => 'destinations#show', as: :destination
+  get '/destinations/:id/edit' => 'destinations#edit', as: :edit_destination 
+  patch '/destinations/:id' => 'destinations#update'
   get '/about' => 'about#about'
   get '/portfolio' => 'portfolio#portfolio'
 

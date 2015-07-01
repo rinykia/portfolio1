@@ -1,9 +1,26 @@
 // Place all the styles related to the Portfolio controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.portfolio{
+.p{
 	height: 700px;
-	width: 300px;
-	margin-left: 40%;
+	width: 400px;
+	margin-left: 35%;
 
+}
+.travelapp{
+	background-image: url(2trip.jpg);
+	background-size: cover;
+}
+.goal{
+	background-image: url(1trip.jpg);
+	background-repeat: no-repeat;
+	background-size: 112px 67px;
+	width: 200px;
+	height: 200px;
+	margin-top: 580px;
+	margin-left: 124px;
+}
+.p > p {
+	color: white;
+	font-size: 20px;
 }
