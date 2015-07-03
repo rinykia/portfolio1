@@ -1,12 +1,16 @@
 // Place all the styles related to the About controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.about {
-	
-	
+.imgabout{
 	height: 700px;
 	background-image: url(Amazonka.jpg);
 	background-size: cover;
+	background-repeat: no-repeat;
+}
+.about {
+	
+	
+	
 
 
 	p{

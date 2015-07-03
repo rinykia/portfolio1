@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  
   root 'pages#welcome'
   get '/pages' => 'pages#welcome'
   get '/contacts' => 'contacts#contact'
@@ -11,6 +12,10 @@ Rails.application.routes.draw do
   patch '/destinations/:id' => 'destinations#update'
   get '/about' => 'about#about'
   get '/portfolio' => 'portfolio#portfolio'
+
+  get '/store' => 'store#index'
+
+  resources :products
 
   #resources :comments
 

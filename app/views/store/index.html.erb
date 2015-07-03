@@ -1,0 +1,19 @@
+<div class="product1">
+	<% if notice %> 
+		<p id="notice"><%= notice %></p>
+	<% end %>
+	<h4>Catalog</h4>
+	
+<div class="product2">
+	<% @products.each do |product| %>
+	<div class="entry1">
+		<ul class="instore">
+			<li class="imgproduct"><%= image_tag(product.image_url) %></li>
+		
+			<li class="price"><%= product.price %></li>
+		</ul>
+
+	</div>
+	<% end %>
+</div>
+</div>

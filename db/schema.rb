@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150701125248) do
+ActiveRecord::Schema.define(version: 20150702091619) do
 
   create_table "comments", force: :cascade do |t|
     t.integer  "post_id"
@@ -40,6 +40,15 @@ ActiveRecord::Schema.define(version: 20150701125248) do
     t.text     "body"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "products", force: :cascade do |t|
+    t.string   "title_product"
+    t.text     "description_product"
+    t.string   "image_url"
+    t.decimal  "price",               precision: 8, scale: 2
+    t.datetime "created_at",                                  null: false
+    t.datetime "updated_at",                                  null: false
   end
 
   create_table "tags", force: :cascade do |t|
