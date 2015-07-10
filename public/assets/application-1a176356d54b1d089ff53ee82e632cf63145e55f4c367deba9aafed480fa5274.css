@@ -1,0 +1,1875 @@
+/* line 4, D:/w/porfolio1/app/assets/stylesheets/about.scss */
+.imgabout {
+  height: 700px;
+  background-image: url(Amazonka.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 16, D:/w/porfolio1/app/assets/stylesheets/about.scss */
+.about p {
+  width: 800px;
+  margin-left: 35%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+/* line 28, D:/w/porfolio1/app/assets/stylesheets/about.scss */
+.textabout {
+  padding-top: 150px;
+}
+/* contact */
+/* line 6, D:/w/porfolio1/app/assets/stylesheets/contacts.scss */
+.contact {
+  height: 700px;
+  color: black;
+  background-image: url(123.jpg);
+  background-size: cover;
+}
+
+/* line 13, D:/w/porfolio1/app/assets/stylesheets/contacts.scss */
+.contacttext {
+  width: 300px;
+  margin-left: 40%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  color: black;
+  padding-top: 15px;
+}
+
+/* line 25, D:/w/porfolio1/app/assets/stylesheets/contacts.scss */
+.time {
+  font-size: 10px;
+}
+
+/* line 30, D:/w/porfolio1/app/assets/stylesheets/contacts.scss */
+.content {
+  width: 300px;
+  background: white;
+  font-size: 12px;
+  height: 80px;
+  line-height: 40px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+/* line 40, D:/w/porfolio1/app/assets/stylesheets/contacts.scss */
+.partial1 {
+  margin-top: -30px;
+}
+
+ /*
+
+.contacts a,
+.create .actions input {
+  background-color: #f2580b;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 12px 24px;
+  transition: background-color 0.5s;
+  text-decoration: none;
+  display: inline-block;
+}
+.c {
+  background-color: #fff;
+  font-weight: 300;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+p.time {
+  color: #0084d7;
+  font-size: 12px;
+  margin-top: 12px;
+}
+button {
+  background-color: #f2580b;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 12px 24px;
+  transition: background-color 0.5s;
+}
+
+button:hover {
+  background-color: #c24609;
+  transition: background-color 0.5s;
+}
+
+form label {
+  display: block;
+  width: 100%;
+}
+
+form textarea {
+  border: 1px solid transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 20px 0 10px;
+  min-height: 100px;
+  padding: 16px;
+  transition: border 0.5s;
+  width: calc(100% - 32px);
+}
+
+form textarea:focus {
+  border: 1px solid #0084d7;
+  box-shadow: 0;
+  outline: 0;
+  transition: border 0.5s;
+}
+@media screen and (max-width: 480px) {
+    .container {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .contacts, .create {
+      padding: 0 20px;
+    }*/
+/*welcome	*/
+/* line 7, D:/w/porfolio1/app/assets/stylesheets/pages.scss */
+.main {
+  background-image: url(pict.jpg);
+  /*background-image:linear-gradient(#6600CC, #6633CC, #6666CC, #6699CC, #66CCCC, #66FFCC);*/
+  background-size: cover;
+  height: 700px;
+}
+
+/* line 15, D:/w/porfolio1/app/assets/stylesheets/pages.scss */
+.text {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  height: 550px;
+  line-height: 550px;
+}
+/* line 4, D:/w/porfolio1/app/assets/stylesheets/portfolio.scss */
+.p {
+  height: 700px;
+  width: 400px;
+  margin-left: 41%;
+  padding-top: 50px;
+}
+
+/* line 11, D:/w/porfolio1/app/assets/stylesheets/portfolio.scss */
+.travelapp {
+  background-image: url(2trip.jpg);
+  background-size: cover;
+}
+
+/* line 15, D:/w/porfolio1/app/assets/stylesheets/portfolio.scss */
+.goal {
+  background-image: url(goal2.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  width: 50px;
+  height: 50px;
+}
+
+/* line 25, D:/w/porfolio1/app/assets/stylesheets/portfolio.scss */
+.goal2 {
+  background-image: url(goal2.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  width: 50px;
+  height: 50px;
+}
+
+/* line 35, D:/w/porfolio1/app/assets/stylesheets/portfolio.scss */
+.goal3 {
+  background-image: url(goal2.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  width: 50px;
+  height: 50px;
+}
+
+/* line 45, D:/w/porfolio1/app/assets/stylesheets/portfolio.scss */
+.p > p {
+  color: white;
+  font-size: 15px;
+}
+/*index.html.erb*/
+/* line 6, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.img {
+  background-image: url(ocean.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+/* line 12, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.post {
+  width: 600px;
+  margin-left: 35%;
+}
+
+/* line 17, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+ul > .titlep > a {
+  color: #000000;
+}
+
+/* line 21, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+ul > .bodyp > a {
+  color: #000000;
+}
+
+/* line 24, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+li > a:hover {
+  text-decoration: none;
+  color: black;
+  background: none;
+}
+
+/* line 29, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+li {
+  list-style-type: none;
+}
+
+/* line 32, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.redact {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 15px;
+  font-size: 10px;
+}
+
+/* line 39, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.border {
+  border-bottom: solid #E6E6FA 1px;
+  margin-left: -40px;
+  margin-right: 10px;
+}
+
+/* line 46, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.titlep {
+  padding-top: 15px;
+  font-size: 20px;
+  font-family: Verdana,Arial,sans-serif;
+  font-weight: 500;
+  margin-left: -30px;
+}
+
+/* line 57, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.bodyp {
+  margin-left: -30px;
+  color: black;
+  font-size: 14px;
+  padding-top: 10px;
+  font-family: Verdana,Arial,sans-serif;
+  font-weight: 500;
+}
+
+/* show post */
+/* line 69, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.show {
+  padding-left: 62px;
+}
+
+/* line 73, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.commentform {
+  margin-left: -30px;
+}
+
+/* new post */
+/* line 77, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+.postnew {
+  width: 700px;
+  margin-left: 35%;
+}
+
+/*form */
+/* line 82, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+INPUT[type="text"] {
+  width: 600px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+/* line 87, D:/w/porfolio1/app/assets/stylesheets/posts.scss */
+textarea {
+  max-width: 600px;
+  min-width: 300px;
+  max-height: 460px;
+  min-height: 100px;
+  border-radius: 5px;
+}
+/* line 4, D:/w/porfolio1/app/assets/stylesheets/products.scss */
+.product {
+  margin-left: 25%;
+  height: 100%;
+}
+
+/* line 11, D:/w/porfolio1/app/assets/stylesheets/products.scss */
+.products table {
+  border-collapse: collapse;
+}
+/* line 15, D:/w/porfolio1/app/assets/stylesheets/products.scss */
+.products table tr td {
+  padding: 5px;
+  vertical-align: top;
+}
+/* line 20, D:/w/porfolio1/app/assets/stylesheets/products.scss */
+.products .list_image {
+  width: 60px;
+  height: 70px;
+}
+/* line 25, D:/w/porfolio1/app/assets/stylesheets/products.scss */
+.products .list_description {
+  width: 60%;
+}
+/* line 28, D:/w/porfolio1/app/assets/stylesheets/products.scss */
+.products .list_description dl {
+  margin: 0;
+}
+/* line 32, D:/w/porfolio1/app/assets/stylesheets/products.scss */
+.products .list_description dt {
+  color: #244;
+  font-weight: bold;
+  font-size: larger;
+}
+/* line 38, D:/w/porfolio1/app/assets/stylesheets/products.scss */
+.products .list_description dd {
+  margin: 0;
+}
+/* line 43, D:/w/porfolio1/app/assets/stylesheets/products.scss */
+.products .list_actions {
+  font-size: x-small;
+  text-align: right;
+  padding-left: 1em;
+}
+/* line 49, D:/w/porfolio1/app/assets/stylesheets/products.scss */
+.products .list_line_even {
+  background: #e0f8f8;
+}
+/* line 53, D:/w/porfolio1/app/assets/stylesheets/products.scss */
+.products .list_line_odd {
+  background: #f8b0f8;
+}
+/* line 1, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 23, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 26, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 33, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 38, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 42, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 48, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 55, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 65, D:/w/porfolio1/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/*.product1{
+	width: 100%;
+	height: 100%;
+}
+.products2{
+	height: 150px;
+}
+.entry1 {
+ 	margin-top: 20px;
+ 	display: inline-block;
+ 	
+ 	
+
+}
+.imgproduct{
+	width: 50px;
+	height: 30%;
+
+}
+
+h4{
+	margin-left: 30%;
+}
+ 
+ 
+
+
+ .price {
+ color: #44a;
+ font-weight: bold;
+ margin-right: 3em;
+ margin-top: -20px;
+
+ }*/
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+ body {
+ 	margin-left: auto;
+ 	margin-right: auto;
+	background:white;
+	margin-top: 50px;
+	/*width: 1002px;
+	height: 100%;
+	border: solid #808080 1px; */
+	 height: 100%;
+	 width: 100%;
+}
+.header{
+	width: 523px;
+	margin-left: 35%;
+ 	
+}
+.menu > .column > a{
+
+	font-family: monospace;
+	font-size: 15px;
+	color: black;
+	
+
+}
+
+/*#color1 {
+	margin-left: -40px;
+
+	background-image:linear-gradient(#660000, #663333, #666633, #669933, #66CC33, #66FF33);
+}
+
+#color2{
+	margin-left: -5px;
+    background-image:linear-gradient(#660066, #663366, #666666, #669966, #66CC66, #66FF66);
+}
+#color3 {
+	margin-left: -5px;
+    background-image:linear-gradient(#660099, #663399, #666699, #669999, #66CC99, #66FF99);
+}
+
+#color4{
+	margin-left: -5px;
+    background-image:linear-gradient(#6600CC, #6633CC, #6666CC, #6699CC, #66CCCC, #66FFCC);
+}
+#color5{
+	margin-left: -5px;
+    background-image:linear-gradient(#6600FF, #6633FF, #6666FF, #6699FF, #66CCFF, #66FFFF);
+}
+*/
+.column{
+	height:25px;
+    display: inline-block;
+    margin-left: 35px;
+    font-family: 'Roboto', sans-serif;
+	text-align: center;
+	line-height: 25px;
+}
+
+
+ 
+ /*footer */
+.footer > .ikonki > a:hover {
+ 	text-decoration: none;
+ 	background: white;
+ }
+ .footer{
+	width: 170px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 45%;
+
+
+		/* изменить когда поставить иконки */
+}
+ .icon{
+	display: inline-block;
+	list-style-type: none;
+	width: 40px;
+	height: 40px;
+	
+    
+}
+.icon1{
+	background-image: url(icon2.jpg);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	
+	
+}
+.icon2{
+	background-image: url(icon1.jpg);
+	background-repeat: no-repeat;
+	background-size: 40px;
+
+	
+}
+.icon3{
+	background-image: url(icon3.jpg);
+	background-repeat: no-repeat;
+	background-size: 40px;
+
+	
+}
+/* post and coments */
+
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* App */
+/* line 22, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.tagsid {
+  height: 700px;
+}
+
+/* line 28, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.tags, .destination {
+  height: 700px;
+}
+
+/* line 33, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+h2 a {
+  text-decoration: none;
+}
+
+/* line 37, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.container1 h2 {
+  color: #00217f;
+}
+
+/* line 41, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.card {
+  color: #fff;
+  display: block;
+  margin: 4px 0;
+}
+
+/* line 47, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.tags .card h2 {
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 25%;
+}
+
+/* line 56, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.tags img,
+.tag img {
+  display: block;
+  width: 100% \9;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 64, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.tag h2, .tag .card h2, .destination h2, .destination p {
+  padding: 0 20px 0;
+}
+
+/* line 68, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.tag .card p {
+  color: #0f0f0f;
+  font-size: 14px;
+  font-weight: 300;
+  -webkit-box-orient: vertical;
+  padding: 0 20px 20px;
+}
+
+/* line 76, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.destination img {
+  width: 70%;
+}
+
+/* line 80, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.destination p {
+  color: #0f0f0f;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* line 86, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.card a,
+.destination a,
+.destination .btn {
+  background-color: #00217f;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .5s;
+  padding: 6px 30px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 8px 0 20px;
+}
+
+/* line 102, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.destination .btn {
+  width: 100px;
+}
+
+/* line 106, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.destination a:hover,
+.destination .btn:hover {
+  background-color: #003ec9;
+  transition: background-color .5s;
+}
+
+/* line 112, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.destination form {
+  margin: 20px;
+}
+
+/* line 116, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.destination form label {
+  width: 100%;
+}
+
+/* line 120, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.destination form input {
+  border: 1px solid #d6d6d6;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0;
+  padding: 20px;
+  width: calc(100% - 40px);
+}
+
+/* line 128, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.destination form input:focus {
+  border: 1px solid #003ec9;
+  font-size: 14px;
+  font-weight: 300;
+  box-shadow: 0;
+  outline: 0;
+  transition: border 0.5s;
+}
+
+/* Grid */
+/* line 139, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 144, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 150, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.container1 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  /* line 157, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .container1 {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 162, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .container1 {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 167, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .container1 {
+    width: 1170px;
+  }
+}
+/* line 171, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 175, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 181, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+
+/* line 184, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-12 {
+  width: 100%;
+}
+
+/* line 187, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-11 {
+  width: 91.66666667%;
+}
+
+/* line 190, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-10 {
+  width: 83.33333333%;
+}
+
+/* line 193, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-9 {
+  width: 75%;
+}
+
+/* line 196, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-8 {
+  width: 66.66666667%;
+}
+
+/* line 199, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-7 {
+  width: 58.33333333%;
+}
+
+/* line 202, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-6 {
+  width: 50%;
+}
+
+/* line 205, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-5 {
+  width: 41.66666667%;
+}
+
+/* line 208, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-4 {
+  width: 33.33333333%;
+}
+
+/* line 211, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-3 {
+  width: 25%;
+}
+
+/* line 214, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-2 {
+  width: 16.66666667%;
+}
+
+/* line 217, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-1 {
+  width: 8.33333333%;
+}
+
+/* line 220, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-pull-12 {
+  right: 100%;
+}
+
+/* line 223, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-pull-11 {
+  right: 91.66666667%;
+}
+
+/* line 226, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-pull-10 {
+  right: 83.33333333%;
+}
+
+/* line 229, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-pull-9 {
+  right: 75%;
+}
+
+/* line 232, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-pull-8 {
+  right: 66.66666667%;
+}
+
+/* line 235, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-pull-7 {
+  right: 58.33333333%;
+}
+
+/* line 238, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-pull-6 {
+  right: 50%;
+}
+
+/* line 241, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-pull-5 {
+  right: 41.66666667%;
+}
+
+/* line 244, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-pull-4 {
+  right: 33.33333333%;
+}
+
+/* line 247, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-pull-3 {
+  right: 25%;
+}
+
+/* line 250, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-pull-2 {
+  right: 16.66666667%;
+}
+
+/* line 253, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-pull-1 {
+  right: 8.33333333%;
+}
+
+/* line 256, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-pull-0 {
+  right: auto;
+}
+
+/* line 259, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-push-12 {
+  left: 100%;
+}
+
+/* line 262, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-push-11 {
+  left: 91.66666667%;
+}
+
+/* line 265, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-push-10 {
+  left: 83.33333333%;
+}
+
+/* line 268, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-push-9 {
+  left: 75%;
+}
+
+/* line 271, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-push-8 {
+  left: 66.66666667%;
+}
+
+/* line 274, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-push-7 {
+  left: 58.33333333%;
+}
+
+/* line 277, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-push-6 {
+  left: 50%;
+}
+
+/* line 280, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-push-5 {
+  left: 41.66666667%;
+}
+
+/* line 283, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-push-4 {
+  left: 33.33333333%;
+}
+
+/* line 286, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-push-3 {
+  left: 25%;
+}
+
+/* line 289, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-push-2 {
+  left: 16.66666667%;
+}
+
+/* line 292, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-push-1 {
+  left: 8.33333333%;
+}
+
+/* line 295, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-push-0 {
+  left: auto;
+}
+
+/* line 298, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-offset-12 {
+  margin-left: 100%;
+}
+
+/* line 301, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+
+/* line 304, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+
+/* line 307, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+/* line 310, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+
+/* line 313, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+
+/* line 316, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+/* line 319, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+
+/* line 322, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+
+/* line 325, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+/* line 328, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+
+/* line 331, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+
+/* line 334, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.col-xs-offset-0 {
+  margin-left: 0%;
+}
+
+@media (min-width: 768px) {
+  /* line 338, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+
+  /* line 341, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  /* line 344, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-11 {
+    width: 91.66666667%;
+  }
+
+  /* line 347, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+
+  /* line 350, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  /* line 353, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+
+  /* line 356, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-7 {
+    width: 58.33333333%;
+  }
+
+  /* line 359, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  /* line 362, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-5 {
+    width: 41.66666667%;
+  }
+
+  /* line 365, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+
+  /* line 368, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  /* line 371, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
+
+  /* line 374, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-1 {
+    width: 8.33333333%;
+  }
+
+  /* line 377, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-pull-12 {
+    right: 100%;
+  }
+
+  /* line 380, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-pull-11 {
+    right: 91.66666667%;
+  }
+
+  /* line 383, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-pull-10 {
+    right: 83.33333333%;
+  }
+
+  /* line 386, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-pull-9 {
+    right: 75%;
+  }
+
+  /* line 389, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-pull-8 {
+    right: 66.66666667%;
+  }
+
+  /* line 392, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-pull-7 {
+    right: 58.33333333%;
+  }
+
+  /* line 395, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-pull-6 {
+    right: 50%;
+  }
+
+  /* line 398, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-pull-5 {
+    right: 41.66666667%;
+  }
+
+  /* line 401, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-pull-4 {
+    right: 33.33333333%;
+  }
+
+  /* line 404, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-pull-3 {
+    right: 25%;
+  }
+
+  /* line 407, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-pull-2 {
+    right: 16.66666667%;
+  }
+
+  /* line 410, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-pull-1 {
+    right: 8.33333333%;
+  }
+
+  /* line 413, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-pull-0 {
+    right: auto;
+  }
+
+  /* line 416, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-push-12 {
+    left: 100%;
+  }
+
+  /* line 419, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-push-11 {
+    left: 91.66666667%;
+  }
+
+  /* line 422, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-push-10 {
+    left: 83.33333333%;
+  }
+
+  /* line 425, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-push-9 {
+    left: 75%;
+  }
+
+  /* line 428, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-push-8 {
+    left: 66.66666667%;
+  }
+
+  /* line 431, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-push-7 {
+    left: 58.33333333%;
+  }
+
+  /* line 434, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-push-6 {
+    left: 50%;
+  }
+
+  /* line 437, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-push-5 {
+    left: 41.66666667%;
+  }
+
+  /* line 440, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-push-4 {
+    left: 33.33333333%;
+  }
+
+  /* line 443, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-push-3 {
+    left: 25%;
+  }
+
+  /* line 446, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-push-2 {
+    left: 16.66666667%;
+  }
+
+  /* line 449, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-push-1 {
+    left: 8.33333333%;
+  }
+
+  /* line 452, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-push-0 {
+    left: auto;
+  }
+
+  /* line 455, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+
+  /* line 458, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-offset-11 {
+    margin-left: 91.66666667%;
+  }
+
+  /* line 461, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-offset-10 {
+    margin-left: 83.33333333%;
+  }
+
+  /* line 464, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 467, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-offset-8 {
+    margin-left: 66.66666667%;
+  }
+
+  /* line 470, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-offset-7 {
+    margin-left: 58.33333333%;
+  }
+
+  /* line 473, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 476, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-offset-5 {
+    margin-left: 41.66666667%;
+  }
+
+  /* line 479, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-offset-4 {
+    margin-left: 33.33333333%;
+  }
+
+  /* line 482, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 485, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+
+  /* line 488, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-offset-1 {
+    margin-left: 8.33333333%;
+  }
+
+  /* line 491, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-sm-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 992px) {
+  /* line 496, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+
+  /* line 499, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-12 {
+    width: 100%;
+  }
+
+  /* line 502, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+
+  /* line 505, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+
+  /* line 508, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-9 {
+    width: 75%;
+  }
+
+  /* line 511, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+
+  /* line 514, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+
+  /* line 517, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-6 {
+    width: 50%;
+  }
+
+  /* line 520, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+
+  /* line 523, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+
+  /* line 526, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-3 {
+    width: 25%;
+  }
+
+  /* line 529, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+
+  /* line 532, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+
+  /* line 535, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-pull-12 {
+    right: 100%;
+  }
+
+  /* line 538, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-pull-11 {
+    right: 91.66666667%;
+  }
+
+  /* line 541, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-pull-10 {
+    right: 83.33333333%;
+  }
+
+  /* line 544, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-pull-9 {
+    right: 75%;
+  }
+
+  /* line 547, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-pull-8 {
+    right: 66.66666667%;
+  }
+
+  /* line 550, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-pull-7 {
+    right: 58.33333333%;
+  }
+
+  /* line 553, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-pull-6 {
+    right: 50%;
+  }
+
+  /* line 556, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-pull-5 {
+    right: 41.66666667%;
+  }
+
+  /* line 559, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-pull-4 {
+    right: 33.33333333%;
+  }
+
+  /* line 562, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-pull-3 {
+    right: 25%;
+  }
+
+  /* line 565, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-pull-2 {
+    right: 16.66666667%;
+  }
+
+  /* line 568, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-pull-1 {
+    right: 8.33333333%;
+  }
+
+  /* line 571, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-pull-0 {
+    right: auto;
+  }
+
+  /* line 574, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-push-12 {
+    left: 100%;
+  }
+
+  /* line 577, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-push-11 {
+    left: 91.66666667%;
+  }
+
+  /* line 580, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-push-10 {
+    left: 83.33333333%;
+  }
+
+  /* line 583, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-push-9 {
+    left: 75%;
+  }
+
+  /* line 586, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-push-8 {
+    left: 66.66666667%;
+  }
+
+  /* line 589, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-push-7 {
+    left: 58.33333333%;
+  }
+
+  /* line 592, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-push-6 {
+    left: 50%;
+  }
+
+  /* line 595, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-push-5 {
+    left: 41.66666667%;
+  }
+
+  /* line 598, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-push-4 {
+    left: 33.33333333%;
+  }
+
+  /* line 601, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-push-3 {
+    left: 25%;
+  }
+
+  /* line 604, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-push-2 {
+    left: 16.66666667%;
+  }
+
+  /* line 607, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-push-1 {
+    left: 8.33333333%;
+  }
+
+  /* line 610, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-push-0 {
+    left: auto;
+  }
+
+  /* line 613, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-offset-12 {
+    margin-left: 100%;
+  }
+
+  /* line 616, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+
+  /* line 619, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+
+  /* line 622, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 625, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+
+  /* line 628, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+
+  /* line 631, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 634, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+
+  /* line 637, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+
+  /* line 640, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 643, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+
+  /* line 646, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+
+  /* line 649, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-md-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 654, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+
+  /* line 657, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  /* line 660, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-11 {
+    width: 91.66666667%;
+  }
+
+  /* line 663, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-10 {
+    width: 83.33333333%;
+  }
+
+  /* line 666, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  /* line 669, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-8 {
+    width: 66.66666667%;
+  }
+
+  /* line 672, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-7 {
+    width: 58.33333333%;
+  }
+
+  /* line 675, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  /* line 678, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-5 {
+    width: 41.66666667%;
+  }
+
+  /* line 681, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-4 {
+    width: 33.33333333%;
+  }
+
+  /* line 684, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  /* line 687, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-2 {
+    width: 16.66666667%;
+  }
+
+  /* line 690, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-1 {
+    width: 8.33333333%;
+  }
+
+  /* line 693, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-pull-12 {
+    right: 100%;
+  }
+
+  /* line 696, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-pull-11 {
+    right: 91.66666667%;
+  }
+
+  /* line 699, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-pull-10 {
+    right: 83.33333333%;
+  }
+
+  /* line 702, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+
+  /* line 705, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-pull-8 {
+    right: 66.66666667%;
+  }
+
+  /* line 708, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-pull-7 {
+    right: 58.33333333%;
+  }
+
+  /* line 711, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+
+  /* line 714, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-pull-5 {
+    right: 41.66666667%;
+  }
+
+  /* line 717, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-pull-4 {
+    right: 33.33333333%;
+  }
+
+  /* line 720, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+
+  /* line 723, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-pull-2 {
+    right: 16.66666667%;
+  }
+
+  /* line 726, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-pull-1 {
+    right: 8.33333333%;
+  }
+
+  /* line 729, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-pull-0 {
+    right: auto;
+  }
+
+  /* line 732, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-push-12 {
+    left: 100%;
+  }
+
+  /* line 735, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-push-11 {
+    left: 91.66666667%;
+  }
+
+  /* line 738, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-push-10 {
+    left: 83.33333333%;
+  }
+
+  /* line 741, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-push-9 {
+    left: 75%;
+  }
+
+  /* line 744, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-push-8 {
+    left: 66.66666667%;
+  }
+
+  /* line 747, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-push-7 {
+    left: 58.33333333%;
+  }
+
+  /* line 750, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-push-6 {
+    left: 50%;
+  }
+
+  /* line 753, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-push-5 {
+    left: 41.66666667%;
+  }
+
+  /* line 756, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-push-4 {
+    left: 33.33333333%;
+  }
+
+  /* line 759, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-push-3 {
+    left: 25%;
+  }
+
+  /* line 762, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-push-2 {
+    left: 16.66666667%;
+  }
+
+  /* line 765, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-push-1 {
+    left: 8.33333333%;
+  }
+
+  /* line 768, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-push-0 {
+    left: auto;
+  }
+
+  /* line 771, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+
+  /* line 774, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-offset-11 {
+    margin-left: 91.66666667%;
+  }
+
+  /* line 777, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-offset-10 {
+    margin-left: 83.33333333%;
+  }
+
+  /* line 780, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 783, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-offset-8 {
+    margin-left: 66.66666667%;
+  }
+
+  /* line 786, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-offset-7 {
+    margin-left: 58.33333333%;
+  }
+
+  /* line 789, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 792, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-offset-5 {
+    margin-left: 41.66666667%;
+  }
+
+  /* line 795, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-offset-4 {
+    margin-left: 33.33333333%;
+  }
+
+  /* line 798, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 801, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-offset-2 {
+    margin-left: 16.66666667%;
+  }
+
+  /* line 804, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-offset-1 {
+    margin-left: 8.33333333%;
+  }
+
+  /* line 807, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .col-lg-offset-0 {
+    margin-left: 0%;
+  }
+}
+/* line 811, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.clearfix:before,
+.clearfix:after,
+.container1:before,
+.container1:after,
+.container1-fluid:before,
+.container1-fluid:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+/* line 822, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+.clearfix:after,
+.container1:after,
+.container1-fluid:after,
+.row:after {
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  /* line 830, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .tags .card h2 {
+    top: 5%;
+  }
+
+  /* line 834, D:/w/porfolio1/app/assets/stylesheets/tags.scss */
+  .card a,
+  .destination a,
+  .destination .btn {
+    padding: 8px 15px;
+  }
+}

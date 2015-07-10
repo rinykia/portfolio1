@@ -18,12 +18,15 @@
  */
 
 /* App */
-
+.tagsid{
+  height: 700px;
+}
 
 
 
 .tags, .destination {
-  margin: 80px 0;
+  
+  height: 700px;
 }
 
 h2 a {
@@ -70,7 +73,7 @@ h2 a {
 }
 
 .destination img {
-  width: 100%;
+    width: 70%;
 }
 
 .destination p {
