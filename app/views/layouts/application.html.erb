@@ -5,27 +5,29 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag  'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="http://unslider.com/unslider.min.js"></script>
 </head>
 <body>
-<div class="header">
-	<ul class="menu">
-		<li class="column" id="color1"><%= link_to "Welcome", '/pages' %></li>
-		<li class="column" id="color2"><%= link_to "Portfolio", '/portfolio' %></li>
-		<li class="column" id="color3"><%= link_to "About", '/about' %></li>
-		<li class="column" id="color4"><%= link_to "Blog", '/posts' %></li>
-		<li class="column" id="color5"><%= link_to "Contact", '/contacts' %></li>
-	</ul>
-</div>
-
-<%= yield %>
-<div class="footer">
-	<ul class="ikonki">
-		<a href="#"><li  class="icon icon1"></li></a>
-		<a href="#"><li  class="icon icon2"></li></a>
-		<a href="#"><li  class="icon icon3"></li></a>
-	</ul>
-</div>
+  <div id="wrapper">
+    <div id="header">
+      <ul class="menu">
+	      <li class="point"><%= link_to "Welcome", '/welcome' %></li>
+	      <li class="point"><%= link_to "Portfolio", '/portfolio' %></li>
+	      <li class="point"><%= link_to "About me", '#' %></li>
+	      <li class="point"><%= link_to "Blog", '/posts' %></li>
+	      <li class="point"><%= link_to "Contact me", '/messages' %></li>
+      </ul>
+    </div>
+    <%= yield %>
+    <div id="footer">
+      <ul>
+        <li>github</li>
+        <li>linkedin</li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>

@@ -37,3 +37,7 @@ t5 = Tag.create(ntitle:  "Family", image: "http://s3.amazonaws.com/codecademy-co
 Destination.create(name: "British Museum", description: "A museum dedicated to human history and culture, with over 8 million works.", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/family02.jpg", tag_id: t5.id)
 Destination.create(name: "San Diego Zoo", description: "Houses over 3,700 animals of more than 650 species and subspecies.", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/family03.jpg", tag_id: t5.id)
 Destination.create(name: "Central Park", description: "The most visited urban park in the US as well as one of the most filmed locations in the world.", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/family04.jpg", tag_id: t5.id)
+
+m1 = Message.create(content: "We're at the beach so you should meet us here! I make a mean sandcastle. :)")
+
+m2 = Message.create(content: "Let's meet there!")

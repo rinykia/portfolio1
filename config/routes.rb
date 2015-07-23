@@ -1,22 +1,16 @@
 Rails.application.routes.draw do
   
-  root 'pages#welcome'
-  get '/pages' => 'pages#welcome'
-  get '/contacts' => 'contacts#contact'
-  get '/contacts/new' => 'contacts#new'
-  post 'contacts' => 'contacts#create'
+  resources :messages
+
+  root 'pages#welcome' 
+  get '/welcome' => 'pages#welcome'
+  get '/portfolio' => 'pages#portfolio' 
   get '/tags' => 'tags#index'
   get '/tags/:id' => 'tags#show', as: :tag
   get '/destinations/:id' => 'destinations#show', as: :destination
   get '/destinations/:id/edit' => 'destinations#edit', as: :edit_destination 
   patch '/destinations/:id' => 'destinations#update'
-  get '/about' => 'about#about'
-  get '/portfolio' => 'portfolio#portfolio'
-
-  get '/store' => 'store#index'
-
-  resources :products
-
+  
   #resources :comments
 
   resources :posts do

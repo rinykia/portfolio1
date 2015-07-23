@@ -1,0 +1,9 @@
+/*welcome	*/
+.portfolio{
+  width: 35%;
+  height: 700px;
+  margin-left: 30%;
+}
+.portfolio > p{
+  font-size: 20px;
+}

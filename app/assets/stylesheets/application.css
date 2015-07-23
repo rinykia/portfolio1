@@ -13,109 +13,78 @@
  *= require_tree .
  *= require_self
  */
- body {
- 	margin-left: auto;
- 	margin-right: auto;
-	background:white;
-	margin-top: 50px;
-	/*width: 1002px;
-	height: 100%;
-	border: solid #808080 1px; */
-	 height: 100%;
-	 width: 100%;
-}
-.header{
-	width: 523px;
-	margin-left: 35%;
- 	
-}
-.menu > .column > a{
+ body{
+  width: 100%;
+  background-image: url('green1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 
-	font-family: monospace;
-	font-size: 15px;
-	color: black;
-	
-
-}
-
-/*#color1 {
-	margin-left: -40px;
-
-	background-image:linear-gradient(#660000, #663333, #666633, #669933, #66CC33, #66FF33);
-}
-
-#color2{
-	margin-left: -5px;
-    background-image:linear-gradient(#660066, #663366, #666666, #669966, #66CC66, #66FF66);
-}
-#color3 {
-	margin-left: -5px;
-    background-image:linear-gradient(#660099, #663399, #666699, #669999, #66CC99, #66FF99);
-}
-
-#color4{
-	margin-left: -5px;
-    background-image:linear-gradient(#6600CC, #6633CC, #6666CC, #6699CC, #66CCCC, #66FFCC);
-}
-#color5{
-	margin-left: -5px;
-    background-image:linear-gradient(#6600FF, #6633FF, #6666FF, #6699FF, #66CCFF, #66FFFF);
-}
-*/
-.column{
-	height:25px;
-    display: inline-block;
-    margin-left: 35px;
-    font-family: 'Roboto', sans-serif;
-	text-align: center;
-	line-height: 25px;
-}
-
-
- 
- /*footer */
-.footer > .ikonki > a:hover {
- 	text-decoration: none;
- 	background: white;
  }
- .footer{
-	width: 170px;
-	display: inline-block;
-	margin-top: 20px;
-	margin-left: 45%;
+#wrapper{
+    width: 80%;
+    display: block;
+    margin: auto auto;
+    position: center;
 
-
-		/* изменить когда поставить иконки */
 }
- .icon{
-	display: inline-block;
-	list-style-type: none;
-	width: 40px;
-	height: 40px;
-	
+#header{
+    height: 80px;
+   
+    margin-bottom: 10px;
+}
+#sidebar{
+  height: 700px; 
+  float: left;
+  width: 40%;
+
+}
+#content{
+    height: 700px;
+    margin: 0 0 0 40%;
+    width: 40%;
+
     
 }
-.icon1{
-	background-image: url(icon2.jpg);
-	background-repeat: no-repeat;
-	background-size: 40px;
-	
-	
+#footer{
+    height: 80px;
+    
+    margin-bottom: 10px;
+    
 }
-.icon2{
-	background-image: url(icon1.jpg);
-	background-repeat: no-repeat;
-	background-size: 40px;
-
-	
+/*меню */
+.menu{
+  margin-top: 10px;
+  width: 597px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.icon3{
-	background-image: url(icon3.jpg);
-	background-repeat: no-repeat;
-	background-size: 40px;
-
-	
+.menu > .point {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  display: inline-block;
+  width: 107px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #90EE90;
+  margin-bottom: 0px;
 }
-/* post and coments */
 
+.menu > .point:hover{
+  border: 1px solid #32CD32;
 
+}
+.point > a{
+  color: black;
+  text-decoration: none;
+}
+.point > a:hover{
+  color: #00ff00;
+}
+.point > a:active{
+  color: #00ff00;
+}
+#content > p {
+  color: black;
+  font-size: 20px;
+  padding: 2px;
+}
