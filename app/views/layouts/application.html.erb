@@ -11,7 +11,7 @@
   <script src="http://unslider.com/unslider.min.js"></script>
 </head>
 <body>
-  <div id="wrapper">
+ 
     <div id="header">
       <ul class="menu">
 	      <li class="point"><%= link_to "Welcome", '/welcome' %></li>
@@ -21,6 +21,7 @@
 	      <li class="point"><%= link_to "Contact me", '/messages' %></li>
       </ul>
     </div>
+  
     <%= yield %>
     <div id="footer">
       <ul>
@@ -28,6 +29,6 @@
         <li>linkedin</li>
       </ul>
     </div>
-  </div>
+  
 </body>
 </html>

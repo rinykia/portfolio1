@@ -13,44 +13,44 @@
  *= require_tree .
  *= require_self
  */
- body{
-  width: 100%;
+body, html {
+  margin:0px;
+  padding:0px;
+  height: 100%;
   background-image: url('green1.jpg');
-  background-repeat: no-repeat;
   background-size: cover;
-
- }
-#wrapper{
-    width: 80%;
-    display: block;
-    margin: auto auto;
-    position: center;
-
 }
-#header{
-    height: 80px;
-   
-    margin-bottom: 10px;
+* html #wrapper {
+  height: 100%;
 }
-#sidebar{
-  height: 700px; 
-  float: left;
-  width: 40%;
-
+#wrapper {
+  width:60%;
+  margin:0 auto;
+  min-height: 100%;
 }
-#content{
-    height: 700px;
-    margin: 0 0 0 40%;
-    width: 40%;
-
-    
+#right{
+  text-align: center;
+  width:50%;
+  float:left;
+}
+#left{
+  width:50%;
+  text-align: center;
+  float:right;
+}
+#main2{
+  margin-left:10px;
+  margin-right:10px;
 }
 #footer{
-    height: 80px;
-    
-    margin-bottom: 10px;
-    
+  clear:both;
+  height: 50px;
+  margin-top: 59px;
+  width:100%;
 }
+#rasporka {
+  height: 5%;
+}     
 /*меню */
 .menu{
   margin-top: 10px;
@@ -83,8 +83,11 @@
 .point > a:active{
   color: #00ff00;
 }
-#content > p {
+#left > p {
   color: black;
   font-size: 20px;
   padding: 2px;
+}
+ul > p {
+  font-size: 20px;
 }

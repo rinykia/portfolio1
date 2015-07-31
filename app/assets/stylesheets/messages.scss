@@ -10,9 +10,11 @@ html, body, p {
 }
 
 body {
-  background-color: #eee;
+  
   font-family: 'Roboto', sans-serif;
+  
 }
+
 
 .header {
   
@@ -22,7 +24,7 @@ body {
 }
 
 .header img {
-  margin: -35px 0 0;
+  margin: -5px 0 0;
   width: 60px;
 }
 
@@ -36,7 +38,7 @@ body {
 }
 
 .messages, .create {
-  margin: -55px 0;
+  margin: -30px 0;
 }
 
 .messages a,
