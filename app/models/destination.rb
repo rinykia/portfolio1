@@ -1,3 +1,3 @@
 class Destination < ActiveRecord::Base
-	belongs_to :tag
+  belongs_to :tag
 end

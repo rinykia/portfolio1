@@ -4,7 +4,8 @@ Rails.application.routes.draw do
 
   root 'pages#welcome' 
   get '/welcome' => 'pages#welcome'
-  get '/portfolio' => 'pages#portfolio' 
+  get '/portfolio' => 'pages#portfolio'
+  get '/aboutme' => 'pages#aboutme'
   get '/tags' => 'tags#index'
   get '/tags/:id' => 'tags#show', as: :tag
   get '/destinations/:id' => 'destinations#show', as: :destination
