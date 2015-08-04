@@ -7,28 +7,29 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag  'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="http://unslider.com/unslider.min.js"></script>
 </head>
 <body>
- 
-    <div id="header">
-      <ul class="menu">
-	      <li class="point"><%= link_to "Welcome", '/welcome' %></li>
-	      <li class="point"><%= link_to "Portfolio", '/portfolio' %></li>
-	      <li class="point"><%= link_to "About me", '/aboutme' %></li>
-	      <li class="point"><%= link_to "Blog", '/posts' %></li>
-	      <li class="point"><%= link_to "Contact me", '/messages' %></li>
-      </ul>
-    </div>
-  
-    <%= yield %>
-    <div id="footer">
-      <ul>
-        <li>github</li>
-        <li>linkedin</li>
-      </ul>
-    </div>
-  
+  <div id="header">
+    <ul class="menu">
+	   <li class="point"><%= link_to "Welcome", '/welcome' %></li>
+	   <li class="point"><%= link_to "Portfolio", '/portfolio' %></li>
+	   <li class="point"><%= link_to "About me", '/aboutme' %></li>
+	   <li class="point"><%= link_to "Blog", '/posts' %></li>
+	   <li class="point"><%= link_to "Contact me", '/messages' %></li>
+    </ul>
+  </div>
+  <%= yield %>
+  <div id="footer">
+    <ul>
+      <li>github</li>
+      <li>linkedin</li>
+    </ul>
+  </div>
 </body>
 </html>

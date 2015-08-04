@@ -1,26 +1,30 @@
 <div id="wrapper">
-<div class="header">
-  <div class="container">
-    <img src="http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/logo-1m.svg">
-    <h1>Messenger</h1>
-  </div>
-</div>
-
-<div class="messages">
-  <div class="container">
-  
-    <!-- Your code here -->
-    <% @messages.each do |message| %>
-    <div class="message">
-      <p class="content"><%= message.content %></p>
-      <p class="time"><%= message.created_at %></p>
-      <%= link_to 'Edit', edit_message_path(message) %>
-      <%= link_to 'Destroy', message, method: :delete, data: { confirm: 'Are you sure?' } %>
+  <div class="header">
+    <div class="container">
+      <img src="http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/logo-1m.svg">
+      <h1>Messenger</h1>
     </div>
-    <% end %>
-    <%= link_to 'New Message', "messages/new" %>
   </div>
-</div>
+
+  <div class="messages">
+    <div class="container">
+      <address>
+        <a href="mailto:#">rinykia@gmail.com</a><br>
+        <abbr title="Phone">P:</abbr> (050) 607-8017 <br/>
+        <strong>или оставьте сообщение</strong>
+      </address>
+    <!-- Your code here -->
+      <% @messages.each do |message| %>
+      <div class="message">
+        <p class="content"><%= message.content %></p>
+        <p class="time"><%= message.created_at %></p>
+        <%= link_to 'Edit', edit_message_path(message) %>
+        <%= link_to 'Destroy', message, method: :delete, data: { confirm: 'Are you sure?' } %>
+      </div>
+      <% end %>
+      <%= link_to 'New Message', "messages/new" %>
+    </div>
+  </div>
 </div>
 
 

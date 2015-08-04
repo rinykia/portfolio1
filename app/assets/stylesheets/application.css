@@ -29,7 +29,6 @@ body, html {
   min-height: 100%;
 }
 #right{
-  text-align: center;
   width:50%;
   float:left;
 }
