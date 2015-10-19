@@ -1,29 +1,24 @@
-<div id="wrapper">
-  <div class="show">
-    <div class="post">
-      <p id="notice"><%= notice %></p>
-      <div class="border">
-        <ul>
-          <li class="titlep"><%= @post.title %></li>
-          <li class="bodyp"><%= @post.body %></li>
-        </ul>
+<div class="container">
+  <p id="notice"><%= notice %></p>
+  <h2><%= @post.title %></h2>
+  <div><%= @post.body %></div>
+  <div>
+    <%= link_to 'Edit', edit_post_path(@post) %> |
+    <%= link_to 'Back', posts_path %>
+  </div>
+  <div>
+    <h4>Add comments</h4>
+      <div id="comments">
+        <%= render :partial => @post.comments.reverse %>
       </div>
-      <div class="commentform">
-        <h4>Comments</h4>
-        <div id="comments">
-	      <%= render :partial => @post.comments.reverse %>
-        </div>
         <%= form_for([@post, Comment.new], remote: true) do |f| %>
-	    <p><%= f.label :body, "New Comment" %><br/>
-		  <%= f.text_area :body %>
-	    </p>
-	    <p><%= f.submit "Add Comment" %></p>
+      <p><%= f.label :body, "New Comment" %><br/>
+      <%= f.text_area :body %>
+      </p>
+      <%= f.submit "Add Comment", class: "btn btn-success" %>
         <% end %>
-        <div class="redact">
-          <%= link_to 'Edit', edit_post_path(@post) %> |
-	      <%= link_to 'Back', posts_path %></div>
+
         </div>
       </div>
-    </div>
-  </div> 
+
 </div>

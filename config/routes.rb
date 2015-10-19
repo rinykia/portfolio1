@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   
   resources :messages
-
+  get '/edit' => 'messages#edit'
   root 'pages#welcome' 
-  get '/welcome' => 'pages#welcome'
+  
   get '/portfolio' => 'pages#portfolio'
   get '/aboutme' => 'pages#aboutme'
   get '/tags' => 'tags#index'

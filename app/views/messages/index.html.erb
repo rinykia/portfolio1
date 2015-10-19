@@ -1,31 +1,28 @@
-<div id="wrapper">
-  <div class="header">
-    <div class="container">
-      <img src="http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/logo-1m.svg">
-      <h1>Messenger</h1>
-    </div>
-  </div>
-
-  <div class="messages">
-    <div class="container">
+<div class="container">
+  <div class="container">
+    <div class="row">
+      <h3>Messenger</h3>
       <address>
         <a href="mailto:#">rinykia@gmail.com</a><br>
         <abbr title="Phone">P:</abbr> (050) 607-8017 <br/>
-        <strong>или оставьте сообщение</strong>
+        <div>или оставьте сообщение</div>
+        <div class="btn btn-success btn-md glyphicon glyphicon-envelope"><%= link_to ' New Message', "messages/new" %></div>
       </address>
-    <!-- Your code here -->
       <% @messages.each do |message| %>
-      <div class="message">
-        <p class="content"><%= message.content %></p>
-        <p class="time"><%= message.created_at %></p>
-        <%= link_to 'Edit', edit_message_path(message) %>
-        <%= link_to 'Destroy', message, method: :delete, data: { confirm: 'Are you sure?' } %>
+      <div>
+        <h2><%= message.content %></h2>
+        <i><%= message.created_at %></i><br/>
+        <div class="btn btn-success glyphicon glyphicon-pencil btn-xs"> <%= link_to ' Edit', edit_message_path(message) %></div>
+        <div class="btn btn-danger glyphicon glyphicon-trash btn-xs"><%= link_to ' Destroy', message, method: :delete, data: { confirm: 'Are you sure?' } %></div>
       </div>
       <% end %>
-      <%= link_to 'New Message', "messages/new" %>
-    </div>
+    </div>   
   </div>
-</div>
+</div>  
+     
+<!--<img src="http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/logo-1m.svg">-->
+ 
+   
 
 
 
