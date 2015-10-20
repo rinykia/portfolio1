@@ -1,16 +1,10 @@
-<div class="header">
-  <div class="container">
-    <!--<img src="http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/logo-1m.svg">-->
-    <h1>Messenger</h1>
-  </div>
-</div>
+<div class="container">
 
-<div class="create">
-  <div class="container"> 
+    <!--<img src="http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/logo-1m.svg">-->
+    <h3>Messenger</h3> 
     <!-- Your code here -->
     <%= render 'form' %>
-  </div>
-</div>
+    <%= link_to 'Show', @message %> |
+    <%= link_to 'Back', messages_path %>
 
-<%= link_to 'Show', @message %> |
-<%= link_to 'Back', messages_path %>
+</div>
