@@ -41,12 +41,23 @@
           <li><%= link_to "Blog", '/posts' %></li>
           <li><%= link_to "Contact me", '/messages' %></li>
         </ul>
+        <ul class="nav navbar-nav navbar-right">
+      <% if @error && @error.length > 0 then %>
+      <div class="alert alert-danger"><%= @error %></div>
+      <% end %>
+      <!--log in  and log out -->
+      <% if user_signed_in? %>
+         
+          <li>
+            <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+          </li>
+          <% else %>
+          <li>
+          <%= link_to 'Sign in', new_user_session_path %> 
+        <% end %>
+        </li>       
+        </ul> 
       </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-     
     </div>
   </div>
 
@@ -54,46 +65,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
-    <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
+    
+      
   <%= yield %>
-<!--
-  <div id="header">
-    <ul class="menu">
-	   <li class="point"><%= link_to "Welcome", '/welcome' %></li>
-	   <li class="point"><%= link_to "Portfolio", '/portfolio' %></li>
-	   <li class="point"><%= link_to "About me", '/aboutme' %></li>
-	   <li class="point"><%= link_to "Blog", '/posts' %></li>
-	   <li class="point"><%= link_to "Contact me", '/messages' %></li>
-    </ul>
-  </div>
-  
-  <div id="footer">
-    <ul>
-      <li>github</li>
-      <li>linkedin</li>
-    </ul>
-  </div>
-  
-  <div class="navbar navbar-inverse navbar-fixed-bottom">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
-          <span class="sr-only">open navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-          
-      </div>
-      <div class="collapse navbar-collapse" id="responsive-menu">
-        <ul class="nav navbar-nav">
-          <li><%= link_to 'github',  '#' %></li>
-          <li><%= link_to "linkedin", '#' %></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  -->
+<p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
 </body>
 </html>
