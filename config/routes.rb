@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
-  
+  devise_for :users
+  root to: "pages#welcome"
   resources :messages
   get '/edit' => 'messages#edit'
-  root 'pages#welcome' 
+
   
   get '/portfolio' => 'pages#portfolio'
   get '/aboutme' => 'pages#aboutme'

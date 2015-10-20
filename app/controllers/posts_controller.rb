@@ -1,11 +1,11 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate, except: [:index, :show]
+  before_filter :authenticate_user!
 
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.order('created_at desc').page(params[:page]).limit(7)
+    @posts = Post.order('created_at desc').page(params[:page]).limit(6)
   end
 
   # GET /posts/1
@@ -75,9 +75,9 @@ class PostsController < ApplicationController
       params.require(:post).permit(:title, :body)
     end
 
-    def authenticate
-      authenticate_or_request_with_http_basic do |name, password|
-        name == "rinykia" && password == "secret311"
-      end
-    end
+    #def authenticate
+      #authenticate_or_request_with_http_basic do |name, password|
+        #name == "rinykia" && password == "secret311"
+      #end
+    #end
 end

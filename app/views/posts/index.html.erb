@@ -1,17 +1,15 @@
 <div class="container">
-
-    <p id="notice"><%= notice %></p>
-    <% @posts.each do |post| %>
-
-      <h2><%= link_to post.title, post %></h2>
-      <div><%= link_to truncate(strip_tags(post.body), length: 130), post %></div>
-      <div>
-        <%= link_to 'Edit', edit_post_path(post) %> |
-        <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
-      </div>
-    <% end %>
-    <br>
-    <%= link_to 'New Post', new_post_path, :class => "btn btn-success" %><br/>
-	<%= paginate @posts %>
-
+  <p id="notice"><%= notice %></p>
+  <%= link_to 'New Post', new_post_path, :class => "btn btn-primary btn-lg " %><br/>
+  <% @posts.each do |post| %>
+    <h2><%= link_to post.title, post %></h2>
+    <div><%= link_to truncate(strip_tags(post.body), length: 130), post %></div>
+    <div>
+      <%= link_to 'Edit', edit_post_path(post) %> |
+      <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </div>
+    <hr>
+  <% end %>
+  
+<%= paginate @posts %>
 </div>
