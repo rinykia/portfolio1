@@ -4,12 +4,14 @@
   <% @posts.each do |post| %>
     <h2><%= link_to post.title, post %></h2>
     <div><%= link_to truncate(strip_tags(post.body), length: 130), post %></div>
-    <div>
+    <% if current_user == post.user %>
       <%= link_to 'Edit', edit_post_path(post) %> |
       <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
-    </div>
+    <% end %>   
     <hr>
-  <% end %>
-  
-<%= paginate @posts %>
+  <% end %>  
+  <%= paginate @posts %>
 </div>
+
+
+ 
