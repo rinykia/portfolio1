@@ -34,6 +34,7 @@ gem 'kaminari'
 # Use Unicorn as the app server
 # gem 'unicorn'
 gem 'devise'
+gem 'cancan'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

@@ -1,0 +1,27 @@
+<div class="container">
+<%= link_to 'New Project', new_project_path, class: "btn btn-primary" %>
+  <p id="notice"><%= notice %></p>
+
+  <h2>Listing Projects</h2>
+  <div class="row">
+    
+    <% @projects.each do |project| %>
+    <div class="col-md-4">
+      <%= project.title %><br/>
+      <%= link_to 'click me', project.url %><br/>
+      <img src="<%= project.image %>" width=250px; ><br/>
+      <%= project.description %><br/>
+      <%= link_to 'Show', project %>
+
+      <% if can? :update, @project %>
+        <%= link_to 'Edit', edit_project_path(project) %>
+        
+      <% end %>
+      <%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %>
+      <hr>
+       </div>
+    <% end %>
+   
+  </div>
+
+</div>

@@ -36,11 +36,11 @@
       <div class="collapse navbar-collapse" id="responsive-menu">
         <ul class="nav navbar-nav">
           <li><img class="navbar-brand" src="/assets/halloween.png" width="50px"></li>
-          <li><%= link_to "Welcome", '/' %></li>
-          <li><%= link_to "Applications", '/portfolio' %></li>
-          <li><%= link_to "About me", '/aboutme' %></li>
-          <li><%= link_to "Blog", '/posts' %></li>
-          <li><%= link_to "Contact me", '/messages' %></li>
+          <li><%= link_to "Welcome", root_path %></li>
+          <li><%= link_to "Applications", projects_path %></li>
+          <li><%= link_to "About me", aboutme_path %></li>
+          <li><%= link_to "Blog", posts_path %></li>
+          <li><%= link_to "Contact me", messages_path %></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
       <% if @error && @error.length > 0 then %>
@@ -69,7 +69,23 @@
     
       
   <%= yield %>
-<p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
+  <div class="container">
+    <!-- HotLog -->
+    <span id="hotlog_counter"></span>
+    <span id="hotlog_dyn"></span>
+    <script type="text/javascript"> var hot_s = document.createElement('script');
+      hot_s.type = 'text/javascript'; hot_s.async = true;
+      hot_s.src = 'http://js.hotlog.ru/dcounter/2505173.js';
+      hot_d = document.getElementById('hotlog_dyn');
+      hot_d.appendChild(hot_s);
+    </script>
+    <noscript>
+      <a href="http://click.hotlog.ru/?2505173" target="_blank">
+      <img src="http://hit34.hotlog.ru/cgi-bin/hotlog/count?s=2505173&im=556" border="0" title="HotLog" alt="HotLog"></a>
+    </noscript>
+    <!-- /HotLog -->
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+  </div>
 </body>
 </html>
