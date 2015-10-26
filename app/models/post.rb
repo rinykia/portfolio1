@@ -4,4 +4,5 @@ class Post < ActiveRecord::Base
   validates_presence_of :title
   validates_presence_of :body
   validates_length_of :title, :maximum => 75
+  mount_uploader :avatar, AvatarUploader
 end
