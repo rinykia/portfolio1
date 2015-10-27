@@ -6,7 +6,7 @@
   <div class="row">        
     <% @projects.each do |project| %>
       <div class="col-md-4">
-        <h4><%= project.title %> <%= link_to 'click me', project.url %></h4>     
+       <%= project.title %> <%= link_to 'click me', project.url %>    
         <img class="img-responsive" src="<%= project.image %>">
         <%= project.description %>        
         <% if can? :update, @project %>
@@ -14,7 +14,6 @@
           <%= link_to 'Edit', edit_project_path(project) %>      
           <%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %>
         <% end %>
-
       </div>
     <% end %>
   </div>
