@@ -7,22 +7,24 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag  'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-<!-- Optional theme -->
+  <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="http://code.jquery.com/jquery.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="http://unslider.com/unslider.min.js"></script>
 </head>
 <body>
-  <div class="navbar navbar-inverse navbar-static-top">
+  <div class="navbar navbar-default navbar-static-top">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
@@ -31,7 +33,6 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        
       </div>
       <div class="collapse navbar-collapse" id="responsive-menu">
         <ul class="nav navbar-nav">
@@ -43,55 +44,67 @@
           <li><%= link_to "Contact me", messages_path %></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-      <% if @error && @error.length > 0 then %>
-      <div class="alert alert-danger"><%= @error %></div>
-      <% end %>
-      <!--log in  and log out -->
-      <% if user_signed_in? %>
-         
+        <% if @error && @error.length > 0 then %>
+          <div class="alert alert-danger"><%= @error %></div>
+        <% end %>
+        <!--log in  and log out -->
+        <% if user_signed_in? %>
           <li>
             <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
           </li>
-          <% else %>
+        <% else %>
           <li>
-          <%= link_to 'Sign in', new_user_session_path %> 
+            <%= link_to 'Sign in', new_user_session_path %> 
         <% end %>
-        </li>       
+          </li>       
         </ul> 
       </div>
     </div>
   </div>
-
-   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
-    
-      
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.js"></script>
   <%= yield %>
-  
   <nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-  
- 
-    <!-- HotLog -->
-    <span id="hotlog_counter"></span>
-    <span id="hotlog_dyn"></span>
-    <script type="text/javascript"> var hot_s = document.createElement('script');
-      hot_s.type = 'text/javascript'; hot_s.async = true;
-      hot_s.src = 'http://js.hotlog.ru/dcounter/2505173.js';
-      hot_d = document.getElementById('hotlog_dyn');
-      hot_d.appendChild(hot_s);
-    </script>
-    <noscript>
-      <a href="http://click.hotlog.ru/?2505173" target="_blank">
-      <img src="http://hit34.hotlog.ru/cgi-bin/hotlog/count?s=2505173&im=556" border="0" title="HotLog" alt="HotLog"></a>
-    </noscript>
-    <!-- /HotLog -->
-     </div>
-</nav>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-  
+    <div class="container">   
+      <ul class="nav navbar-nav">
+        <li class="col-lg-7 col-md-7 hidden-sm hidden-xs">   
+          <!-- HotLog -->
+          <span id="hotlog_counter"></span>
+          <span id="hotlog_dyn"></span>
+          <script type="text/javascript"> var hot_s = document.createElement('script');
+            hot_s.type = 'text/javascript'; hot_s.async = true;
+            hot_s.src = 'http://js.hotlog.ru/dcounter/2505173.js';
+            hot_d = document.getElementById('hotlog_dyn');
+            hot_d.appendChild(hot_s);
+          </script>
+          <noscript>
+            <a href="http://click.hotlog.ru/?2505173" target="_blank">
+              <img src="http://hit34.hotlog.ru/cgi-bin/hotlog/count?s=2505173&im=556" border="0" title="HotLog" alt="HotLog">
+            </a>
+          </noscript>
+          <!-- /HotLog -->
+        </li>
+        <li class="col-md-1 col-md-1 hidden-sm hidden-xs">
+          <a class="fa fa-github fa-2x" href="https://github.com/rinykia"></a>
+        </li>
+        <li class="col-md-1 col-md-1 hidden-sm hidden-xs">
+          <a class="fa fa-facebook-official fa-2x" href="#"></a>
+        </li>
+        <li class="col-md-1 col-md-1 hidden-sm hidden-xs">
+          <a class="fa fa-linux fa-2x" href="#"></a>
+        </li>
+        <li class="col-md-1 col-md-1 hidden-sm hidden-xs">
+          <a class="fa fa-vk fa-2x" href="#"></a>
+        </li>
+        <li class="col-md-1 col-md-1 hidden-sm hidden-xs">
+          <a class="fa fa-google-plus fa-2x" href="#"></a>
+        </li>
+      </ul> 
+    </div>
+  </nav>
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
 </body>
 </html>
