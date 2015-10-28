@@ -4,6 +4,7 @@
     <img class="col-md-6 img-responsive" src="<%= @post.avatar %>">
     <div class="col-md-6"><%= @post.body %></div>
   </div>
+  <i>Create  at <%= @post.created_at %></i>
   <% if current_user == @post.user %>
     <%= link_to 'Edit', edit_post_path(@post) %> |
     <%= link_to 'Destroy', @post, method: :delete, data: { confirm: 'Are you sure?' } %> |

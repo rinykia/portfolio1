@@ -2,13 +2,13 @@
   <% if can? :create, @project %>
     <%= link_to 'New Project', new_project_path, class: "btn btn-primary" %>
   <% end %>
-  <h2>Listing Projects</h2>
+  <br/>
   <div class="row">        
     <% @projects.each do |project| %>
-      <div class="col-md-4">
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
       <%= project.title %> <%= link_to 'click me', project.url, class: "click" %>    
         <img class="img-responsive" src="<%= project.image %>">
-        <%= project.description %>        
+        <%= project.description %><br/>       
         <% if can? :update, @project %>
           <%= link_to 'Show', project %>
           <%= link_to 'Edit', edit_project_path(project) %>      
@@ -19,12 +19,3 @@
   </div>
 </div>
 
-
-<script type="text/javascript">
- $(function(){
-  $('h2').css('background-color', '#fffafa');
-  $('.click').css('color', '#696969');
-  $('.click').css('font-size', '20px');
-  $('.click').css('font-weight', 'bold');
- })
- </script>
