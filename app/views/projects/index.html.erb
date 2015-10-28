@@ -6,7 +6,7 @@
   <div class="row">        
     <% @projects.each do |project| %>
       <div class="col-md-4">
-      <%= project.title %> <%= link_to 'click me', project.url %>    
+      <%= project.title %> <%= link_to 'click me', project.url, class: "click" %>    
         <img class="img-responsive" src="<%= project.image %>">
         <%= project.description %>        
         <% if can? :update, @project %>
@@ -18,3 +18,13 @@
     <% end %>
   </div>
 </div>
+
+
+<script type="text/javascript">
+ $(function(){
+  $('h2').css('background-color', '#fffafa');
+  $('.click').css('color', '#696969');
+  $('.click').css('font-size', '20px');
+  $('.click').css('font-weight', 'bold');
+ })
+ </script>
